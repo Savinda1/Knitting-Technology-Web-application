@@ -1,0 +1,71 @@
+body{
+    margin:0;
+    padding:0;
+    background:url(image/mas.jpg);
+    background-size:cover;
+    background-position:center;
+    font-family:sans-serif;}
+.loginbox{
+    width:320px;
+    height: 420px;
+    background:transparent;
+    color:white;
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    top:50%;
+    left: 50%;
+    position: absolute;
+    transform:translate(-50%,-50%);
+    box-sizing:border-box;
+    padding:40px;
+
+}
+
+h1{
+margin:0;
+padding:0 0 20px;
+text-align: center;
+font-size:20px;}
+.loginbox p{
+    margin:0;
+    padding:0 0 5px;
+    font-weight:bold;
+    font-size:15px;
+
+}
+.loginbox input{
+width:200px;
+margin-bottom:20px;
+
+}
+.loginbox input[type="email"],input[type="text"]{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background:transparent;
+    outline: none;
+    height: 40px;
+    color:#fff;
+    font-size: 16px;}
+
+    .button{
+        border:none;
+       border-radius:30px;
+        padding: 5px 30px;
+        background:#233e50;
+        outline: none;
+        height: 40px;
+        font-size: 20px;
+        cursor: pointer;
+    }
+.loginbox a{
+                font-size: 12px;
+                line-height:20px;
+                color: wheat;
+            }
+            .loginbox a :hover{
+                    color:black;
+                    cursor:pointer;
+            }
+    
